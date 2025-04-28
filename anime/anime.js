@@ -30,7 +30,7 @@ function createAnimeCard(anime) {
       <img src="${anime.images.jpg.image_url}" class="card-img" alt="${anime.title}">
       <div class="card-body">
         <h5 class="card-title">${anime.title}</h5>
-        <p class="card-text">Score: ${anime.score || 'N/A'}</p>
+        <p class="card-text">Score: ${anime.score}</p>
         <a href="${anime.url}" class="btn" target="blank">More Info</a>
       </div>
     </div>
